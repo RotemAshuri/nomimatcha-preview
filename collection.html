@@ -659,6 +659,8 @@ a.card-link{color:inherit; text-decoration:none; display:block}
 @media (prefers-reduced-motion:reduce){
   .mark .drift{animation:none}
   .hero .wipe,.hero .fade{opacity:1 !important; animation:none !important; -webkit-mask-image:none; mask-image:none} .hero   }
+/* desktop nav: no dropdown. The bar, the hand-drawn underline and the Wholesale button hover stay; the sub-menus are not shown. (The mobile drawer clones them from the markup, so the markup stays.) */
+.menu .sub,.ws .sub{display:none !important}
 </style>
 </head>
 <body>
